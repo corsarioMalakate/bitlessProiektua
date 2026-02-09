@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bitless project</title>
+  <link rel="stylesheet" href="./theBeatles.css">
+</head>
+<body>
+
+<h1>All The Beatles officcially discography</h1>
+
+<p><a href="01-PleasePleaseMe.html">Please Please Me</a></p>
+<p><a href="02-WithTheBeatles.html">With the Beatles</a></p>
+<p><a href="03-AHardDaysNight.html">A Hard Day's Night</a></p>
+<p><a href="04-BeatlesForSale.html">Beatles for Sale</a></p>
+<p><a href="05-Help.html">Help!</a></p>
+<p><a href="06-RubberSoul.html">Rubber Soul</a></p>
+<p><a href="07-Revolver.html">Revolver</a></p>
+<p><a href="08-SgtPeppersLonelyHeartsClubBand.html">Sgt. Pepper's Lonely Hearts Club Band</a></p>
+<p><a href="09-MagicalMysteryTour.html">Magical Mystery Tour</a></p>
+<p><a href="10-TheBEATLES.html">The BEATLES</a></p>
+<p><a href="11-YellowSubmarine.html">Yellow Submarine</a></p>
+<p><a href="12-AbbeyRoad.html">Abbey Road</a></p>
+<p><a href="13-LetItBe.html">Let It Be</a></p>
+
+</body>
+</html>
+

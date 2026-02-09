@@ -1,0 +1,130 @@
+<!--DOCTYPE html>
+<html>
+<head>
+<title>Bitless project</title>
+</head>
+<body>
+
+<h1>All The Beatles officcially discography</h1>
+
+<p><a href="01-PleasePleaseMe.html">Please Please Me</a></p>
+<p><a href="02-WithTheBeatles.html">With the Beatles</a></p>
+<p><a href="03-AHardDaysNight.html">A Hard Day's Night</a></p>
+<p><a href="04-BeatlesForSale.html">Beatles for Sale</a></p>
+<p><a href="05-Help.html">Help!</a></p>
+<p><a href="06-RubberSoul.html">Rubber Soul</a></p>
+<p><a href="07-Revolver.html">Revolver</a></p>
+<p><a href="08-SgtPeppersLonelyHeartsClubBand.html">Sgt. Pepper's Lonely Hearts Club Band</a></p>
+<p><a href="09-MagicalMysteryTour.html">Magical Mystery Tour</a></p>
+<p><a href="10-TheBEATLES.html">The BEATLES</a></p>
+<p><a href="11-YellowSubmarine.html">Yellow Submarine</a></p>
+<p><a href="12-AbbeyRoad.html">Abbey Road</a></p>
+<p><a href="13-LetItBe.html">Let It Be</a></p>
+
+</body>
+</html-->
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>The Beatles</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --fondo: #0f172a;      /* color 1 */
+      --panel: #1e293b;      /* color 2 */
+      --acento: #38bdf8;     /* color 3 */
+      --texto: #e5e7eb;
+      --linea: rgba(255,255,255,.15);
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--fondo), #020617);
+      color: var(--texto);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      width: min(900px, 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+
+    .lista {
+      background: var(--panel);
+      border: 1px solid var(--linea);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .lista p {
+      border-bottom: 1px solid var(--linea);
+    }
+
+    .lista p:last-child {
+      border-bottom: none;
+    }
+
+    .lista a {
+      display: block;
+      padding: 16px 20px;
+      text-decoration: none;
+      color: var(--texto);
+      font-size: 1.1rem;
+      transition: background .2s ease, color .2s ease, padding-left .2s ease;
+    }
+
+    .lista a:hover {
+      background: rgba(56,189,248,.15);
+      color: var(--acento);
+      padding-left: 28px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>The Beatles</h1>
+
+    <div class="lista">
+      <p><a href="01-PleasePleaseMe.html">Please Please Me</a></p>
+      <p><a href="02-WithTheBeatles.html">With the Beatles</a></p>
+      <p><a href="03-AHardDaysNight.html">A Hard Day's Night</a></p>
+      <p><a href="04-BeatlesForSale.html">Beatles for Sale</a></p>
+      <p><a href="05-Help.html">Help!</a></p>
+      <p><a href="06-RubberSoul.html">Rubber Soul</a></p>
+      <p><a href="07-Revolver.html">Revolver</a></p>
+      <p><a href="08-SgtPeppersLonelyHeartsClubBand.html">Sgt. Pepper's Lonely Hearts Club Band</a></p>
+      <p><a href="09-MagicalMysteryTour.html">Magical Mystery Tour</a></p>
+      <p><a href="10-TheBEATLES.html">The BEATLES</a></p>
+      <p><a href="11-YellowSubmarine.html">Yellow Submarine</a></p>
+      <p><a href="12-AbbeyRoad.html">Abbey Road</a></p>
+      <p><a href="13-LetItBe.html">Let It Be</a></p>
+    </div>
+  </main>
+</body>
+</html>
+
+
